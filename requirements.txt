@@ -1,0 +1,23 @@
+# Core libraries
+numpy==1.23.5
+opencv-python==4.7.0.72
+matplotlib==3.7.1
+seaborn==0.12.2
+scikit-learn==1.2.2
+pandas==1.5.3
+tqdm==4.65.0
+
+# Deep Learning
+tensorflow==2.12.0
+keras==2.12.0  # Explicitly specified for environments where keras is used directly
+
+# Image processing & augmentation
+imutils==0.5.4
+Pillow==9.5.0
+
+# MediaPipe for background segmentation
+mediapipe==0.10.7
+
+# Optional (for text-to-speech if added later)
+pyttsx3==2.90
+
